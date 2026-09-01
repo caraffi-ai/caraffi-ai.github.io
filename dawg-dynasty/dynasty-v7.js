@@ -12,7 +12,7 @@ function bezier(a,b,c,d,t){const m=1-t;return m*m*m*a+3*m*m*t*b+3*m*t*t*c+t*t*t*
 
 const START_X=[13,21,16,24,11,19,27,14,23,17,29,12];
 const START_Y=[13,87,58,28,74,43,8,93,20,66,38,82];
-const FINISH_Y=[13,80,30,91,48,19,69,37,85,57,24,95];
+const FINISH_Y=[13,80,30,91,48,19,69,37,85,57,24,88];
 
 function routeFor(team){
   const i=team.rank-1;
